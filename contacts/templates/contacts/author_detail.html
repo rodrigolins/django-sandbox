@@ -1,0 +1,5 @@
+<h1>{{ author.name }}</h1>
+<h1>{{ author.id }}</h1>
+<a href="{% url 'contacts:author-update' author.id %}"> Update this author</a><br/>
+<a href="{% url 'contacts:author-delete' author.id %}"> Delete this author</a><br/>
+<a href="{% url 'contacts:author-index' %}"> Back to main menu</a><br/>
